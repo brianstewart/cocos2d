@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <tileset firstgid="49" name="meta_tiles" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="meta_tiles.png" width="67" height="34"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Collectable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt2X1PwjAQBvAhKIICvqK8ZgQRhiJ8/0/nQ0KTZRnQ0t31xu6PXwgLXe+hpetGLYqiG6jDtMRa0IYH4n6+YEF4/md4gVfiHL+wETButlYCasgawNDCSECte99Hjs8s288FZDjFNUd6TnHMr5goh4sdccb0HJM4r2zHgGs8OHNT5aCeU1kJrDOmOcd+AnzHPu3/GPtS/PL2C1L2Bi7y1pGi1r7tFeXgykKVwzfDG7w7fN6s6+Z9iDU8zxgmAupQqszuoAn3Amrx0YUePAmoxUcfPuBTQC1mb1TG/VCauRZz3AsuU4o+d3J4pb7+UtVvuNxT+eZwbdOAW6b6KD1CJ1DfsYD8No49e70E5e/lVP1FZtD6lVKquijX46qu9Zy5uf/34aw9jsqztzyXI3QNtuNhhK5FVdc/Kiol/Q==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="50" height="50">
+  <object name="SpawnPoint" x="392" y="400" width="40" height="38"/>
+  <object name="EnemySpawn1" x="261" y="1051" width="49" height="44">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn2" x="1492" y="719" width="58" height="52">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn3" x="1386" y="88" width="50" height="45">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn4" x="912" y="1405" width="59" height="49">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn5" x="828" y="836" width="62" height="57">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn6" x="1127" y="384" width="61" height="43">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Foreground" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt2LENgDAMBEBv4v23RGyAECT4uWvSxp93kyqADH3xhGQpPe/KmeWUNAv/lrab3KMDGbzjPrJ/ljzZRfdYTecAZpv8p9L17v1XZTM1/y+QHQATHTxWAyc=
+  </data>
+ </layer>
+ <layer name="Meta" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt2GEKgCAMBeBdad7/cP1REJlm4HTP3gdSSNDeKotURDQPZCp7cnif45Ycf6AfRmSz9SHkSHl/tEXIsfK4U5jjnGTMoeZos/TWV4R117ouRcR6aR3EbwNLqbl+NpFzvM1FdzpHb037en+3x0d5PqLU4W30biJf7P1a7CcW5O+hWvkHcUOOeosKvf5ZXO+IiLBZ/ztRJPGtf1dvUPsfAXtHRESIHh9mE3A=
+  </data>
+ </layer>
+</map>

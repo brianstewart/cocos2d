@@ -1,0 +1,29 @@
+cat = [[[CatSprite alloc] initWithSpace:space location:ccp(245, 217)] autorelease];
+        [batchNode addChild:cat];  
+        
+        SmallBlockSprite *block1a = [[[SmallBlockSprite alloc] initWithSpace:space location:ccp(213, 47)] autorelease];
+        [batchNode addChild:block1a];
+        
+        SmallBlockSprite *block1b = [[[SmallBlockSprite alloc] initWithSpace:space location:ccp(272, 59)] autorelease];
+        [batchNode addChild:block1b];
+        
+        SmallBlockSprite *block1c = [[[SmallBlockSprite alloc] initWithSpace:space location:ccp(267, 158)] autorelease];
+        [batchNode addChild:block1c];
+        
+        LargeBlockSprite *block2a = [[[LargeBlockSprite alloc] initWithSpace:space location:ccp(270, 102)] autorelease];
+        [batchNode addChild:block2a];
+        cpBodySetAngle(block2a.body, CC_DEGREES_TO_RADIANS(90));
+        
+        LargeBlockSprite *block2b = [[[LargeBlockSprite alloc] initWithSpace:space location:ccp(223, 139)] autorelease];
+        cpBodySetAngle(block2b.body, CC_DEGREES_TO_RADIANS(90));
+        [batchNode addChild:block2b];
+        
+        LargeBlockSprite *block2c = [[[LargeBlockSprite alloc] initWithSpace:space location:ccp(214, 85)] autorelease];
+        [batchNode addChild:block2c];  
+
+
+- - - - -
+
+CatBedSprite *catBed = [[[CatBedSprite alloc] initWithSpace:space location:ccp(230, 50)] autorelease];
+        [batchNode addChild:catBed z:-1];
+        [batchNode addChild:catBed.front z:1];

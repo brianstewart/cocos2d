@@ -1,0 +1,4 @@
+flower.png: via magicmarie (http://www.sxc.hu/photo/1022150)
+bird.png, cat.png, dog.png, turtle.png, bear_2x2.png, ooze_2x2.png: copyright Vicki Wenderlich http://www.vmwstudios.com
+
+These images cannot be used in commercial products without prior permission.
